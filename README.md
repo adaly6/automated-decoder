@@ -4,7 +4,6 @@
 The VIN Decoder Application automates the process of retrieving and organizing vehicle information from Vehicle Identification Numbers (VINs) using Python, Flask, and Selenium. This tool is designed for Brown & Riding to enhance their insurance underwriting process by providing quick and reliable access to vehicle data, including type, body class, and weight.
 
 ## System Requirements
-- Operating System: Windows 7 or higher
 - RAM: At least 4GB
 - Disk Space: At least 100MB
 - Python 3.8 or higher installed
@@ -35,7 +34,6 @@ The VIN Decoder Application automates the process of retrieving and organizing v
 ## Application Components
 - **app.py**: Contains the Flask server, routes, and the main functions for processing VINs and serving the web interface.
 - **templates/index.html**: HTML file for the web interface where users input VIN numbers.
-- **static/**: Directory for static files like CSS and JavaScript, if needed.
 
 ## Key Functions
 - **open_browser()**: Opens the default web browser at the application's home page.
@@ -53,8 +51,5 @@ The VIN Decoder Application automates the process of retrieving and organizing v
 - **CSV File Not Generating**: Ensure the Flask routes are correctly set, and the memory buffer used for the CSV is properly handled.
 - **Web Page Not Displaying**: Verify Flask routing, template rendering, and server status.
 - **Application Not Starting**: Check for syntax errors, ensure all dependencies are installed, and verify the setup of the Python environment.
-
-## Version History
-- 1.0: Initial release with basic functionality for scraping and data processing.
 
 For detailed maintenance instructions and additional troubleshooting, refer to the accompanying `maintenance.txt` file included in the project directory.
